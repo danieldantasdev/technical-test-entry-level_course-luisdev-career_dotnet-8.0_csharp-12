@@ -1,4 +1,4 @@
-﻿# Teste técnico - nível Júnior
+﻿﻿# Teste técnico - nível Júnior
 
 Neste desafio, você será responsável por criar uma API RESTful para uma lista de
 empregos. A API permitirá que os usuários visualizem, criem, atualizem e excluam anúncios
@@ -44,9 +44,9 @@ de emprego.
 7. Adicionar configuração de connection string do Banco de Dados no appsettings.json, atualizar
 configuração no Program.cs, e gerar as migrations com:
 
-ˋˋˋcsharp
+```shell
 dotnet ef migrations add Initial -o Persistence/Migrations
 dotnet ef database update
-ˋˋˋ
+```
 
 8. Testar novamente
