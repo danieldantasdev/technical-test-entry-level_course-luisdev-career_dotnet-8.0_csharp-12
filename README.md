@@ -1,4 +1,4 @@
-﻿﻿# Teste técnico - nível Júnior
+﻿# Teste técnico - nível Júnior
 
 Neste desafio, você será responsável por criar uma API RESTful para uma lista de
 empregos. A API permitirá que os usuários visualizem, criem, atualizem e excluam anúncios
