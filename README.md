@@ -44,6 +44,12 @@ de emprego.
 7. Adicionar configuração de connection string do Banco de Dados no appsettings.json, atualizar
 configuração no Program.cs, e gerar as migrations com:
 
+Utilizei o Docker para o banco:
+
+```shell
+docker run -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=Admin@123" -e "MSSQL_PID=Evaluation" -p 1433:1433  --name sqlserver --hostname sqlserver -d mcr.microsoft.com/mssql/server:2022-preview-ubuntu-22.04
+```
+
 ```shell
 dotnet ef migrations add Initial -o Persistence/Migrations
 dotnet ef database update
